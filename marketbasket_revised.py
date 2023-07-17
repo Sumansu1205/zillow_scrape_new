@@ -4,7 +4,7 @@ from mlxtend.frequent_patterns import apriori
 from mlxtend.frequent_patterns import association_rules
 
 # Read the data from a CSV file
-store_data = pd.read_csv('/Users/surabhisuman/Downloads/simple_data-1.csv', header=None)
+store_data = pd.read_csv('simple_data-1.csv', header=None)
 
 # Replace all nan values with the string "N/A"
 store_data = store_data.fillna("N/A")
